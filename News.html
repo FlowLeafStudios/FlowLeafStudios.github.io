@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Formaggio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+  
+<img class="ui centered logo image" src="image.png"
+     alt="Island Snow Hawaii">
+
+<div class="ui borderless topmenu menu">
+  <div class="ui centered grid container">
+    <a class="item" href="index.html">HOME</a>
+    <a class="item" href="Game.html">GAME</a>
+    <a class="item" href="Members.html">MEMBERS</a>
+    <a class="item" href="News.html">NEWS</a>
+  </div>
+</div>
+
+
+<div class="ui three column grid container">
+  <div class="ui centered row">
+    <h1 class="ui header">NEWS</h1>
+  </div>
+</div>
+
+<ul id="list">
+  <script language="javascript" type="text/javascript">
+    $(function(){
+      $.getJSON("members.json", (dada)=>{
+        for(var i in data) {
+            var text = "<li>"
+                     + data[i].name
+                     + data[i].major
+                     + data[i].email
+                     + "</li>";
+            $("ul#list").append(text);
+        }
+      });
+    });
+  </script>
+</ul>
+
+
+
+<div class="ui grid container">
+  <div class="ui row">
+    <div class="ui card" style="width:80%">
+    <div class="content">
+      <div class="header">Project Timeline</div>
+    </div>
+    <div class="content">
+      <h4 class="ui sub header">Activity</h4>
+      <div class="ui small feed">
+        <div class="event">
+          <div class="content">
+            <div class="summary">
+              <a href="Members.html">Elliot Fu</a> added <a href="Members.html">Jenny Hess</a> to the project
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="extra content">
+      <button class="ui button">Join Project</button>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="ui fotter container">
+  <hr>
+  <h5 class="ui centered header">University of Hawaii at Manoa ICS485 Group Project</h5>
+</div>
+
+
+
+
+
+
+</body>
+</html>
