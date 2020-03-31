@@ -13,155 +13,114 @@
 <body>
   
 <img class="ui medium centered logo image" src="images/teamlogo.png"
-     alt="Island Snow Hawaii">
+     alt="FlowLeafStudios">
 
-<div class="ui borderless topmenu menu">
-  <div class="ui centered grid container">
-    <a class="item" href="index.html">HOME</a>
-    <a class="item" href="Game.html">GAME</a>
-    <a class="item" href="Members.html">MEMBERS</a>
-    <a class="item" href="News.html">NEWS</a>
-  </div>
-</div>
-
-
-<div class="ui three column grid container">
-  <div class="ui centered row">
-    <h1 class="ui header">NEWS</h1>
-  </div>
-</div>
-
-<ul id="list">
-  <script language="javascript" type="text/javascript">
-    $(function(){
-      $.getJSON("members.json", (dada)=>{
-        for(var i in data) {
-            var text = "<li>"
-                     + data[i].name
-                     + data[i].major
-                     + data[i].email
-                     + "</li>";
-            $("ul#list").append(text);
-        }
-      });
-    });
-  </script>
-</ul>
-
-
-<!--Template
-<div class="ui grid container">
-  <div class="ui row">
-    <div class="ui card" style="width:80%">
-    <div class="content">
-      <div class="header">Project Timeline</div>
+<div class="ui grid">
+  <div class = "ui three wide column"></div>
+  
+  <div class="ui ten wide column">
+    <div class="ui borderless topmenu menu">
+      <div class="ui centered grid container">
+        <a class="item" href="index.html">HOME</a>
+        <a class="item" href="Game.html">GAME</a>
+        <a class="item" href="Members.html">MEMBERS</a>
+        <a class="item" href="News.html">NEWS</a>
+      </div>
     </div>
-    <div class="content">
-      <h4 class="ui sub header">Activity</h4>
-      <div class="ui small feed">
-        <div class="event">
+
+
+    <div class="ui three column grid container">
+      <div class="ui centered row">
+        <h1 class="ui header">NEWS</h1>
+      </div>
+    </div>
+
+    <!--Second Prototype-->
+    <div class="ui grid container">
+      <div class="ui row">
+        <div class="ui card" style="width:60%">
           <div class="content">
-            <div class="summary">
-              <a href="Members.html">Elliot Fu</a> added <a href="Members.html">Jenny Hess</a> to the project
+            <div class="header">Second Prototype</div>
+          </div>
+          <div class="content">
+            <h4 class="ui sub header">Activity</h4>
+            <div class="ui small feed">
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    Added player's attack and effects for enemies.
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="extra content">
+            <button class="ui button">
+              <a href="News/SecondPrototype.html" style="color:black">Detail</a>
+            </button>
           </div>
         </div>
       </div>
     </div>
-    <div class="extra content">
-      <button class="ui button">Join Project</button>
-    </div>
-  </div>
-  </div>
-</div>
--->
 
-<!--Second Prototype-->
-<div class="ui grid container">
-  <div class="ui row">
-    <div class="ui card" style="width:60%">
-    <div class="content">
-      <div class="header">Second Prototype</div>
-    </div>
-    <div class="content">
-      <h4 class="ui sub header">Activity</h4>
-      <div class="ui small feed">
-        <div class="event">
+    <!--First Prototype-->
+    <div class="ui grid container">
+      <div class="ui row">
+        <div class="ui card" style="width:60%">
           <div class="content">
-            <div class="summary">
-              Added player's attack and effects for enemies.
+            <div class="header">First Prototype</div>
+          </div>
+          <div class="content">
+            <h4 class="ui sub header">Activity</h4>
+            <div class="ui small feed">
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    Implemented basic player movements and enemy movements.
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="extra content">
+            <button class="ui button">
+              <a href="News/FirstPrototype.html" style="color:black">Detail</a>
+            </button>
           </div>
         </div>
       </div>
     </div>
-    <div class="extra content">
-      <button class="ui button">
-        <a href="News/SecondPrototype.html" style="color:black">Detail</a>
-      </button>
-    </div>
-  </div>
-  </div>
-</div>
 
-<!--First Prototype-->
-<div class="ui grid container">
-  <div class="ui row">
-    <div class="ui card" style="width:60%">
-    <div class="content">
-      <div class="header">First Prototype</div>
-    </div>
-    <div class="content">
-      <h4 class="ui sub header">Activity</h4>
-      <div class="ui small feed">
-        <div class="event">
+    <!--Brain Storming-->
+    <div class="ui grid container">
+      <div class="ui row">
+        <div class="ui card" style="width:60%">
           <div class="content">
-            <div class="summary">
-              Implemented basic player movements and enemy movements.
+            <div class="header">Brain Storming</div>
+          </div>
+          <div class="content">
+            <h4 class="ui sub header">Activity</h4>
+            <div class="ui small feed">
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    Members talked about possible game features.
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="extra content">
+            <button class="ui button">
+              <a href="News/BrainStorming.html" style="color:black">Detail</a>
+            </button>
           </div>
         </div>
       </div>
     </div>
-    <div class="extra content">
-      <button class="ui button">
-        <a href="News/FirstPrototype.html" style="color:black">Detail</a>
-      </button>
-    </div>
   </div>
-  </div>
-</div>
 
-<!--Brain Storming-->
-<div class="ui grid container">
-  <div class="ui row">
-    <div class="ui card" style="width:60%">
-    <div class="content">
-      <div class="header">Brain Storming</div>
-    </div>
-    <div class="content">
-      <h4 class="ui sub header">Activity</h4>
-      <div class="ui small feed">
-        <div class="event">
-          <div class="content">
-            <div class="summary">
-              Members talked about possible game features.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="extra content">
-      <button class="ui button">
-        <a href="News/BrainStorming.html" style="color:black">Detail</a>
-      </button>
-    </div>
-  </div>
-  </div>
-</div>
-
-
-
+  <div class="ui three wide column"></div>
 
 <div class="ui fotter container">
   <hr>
