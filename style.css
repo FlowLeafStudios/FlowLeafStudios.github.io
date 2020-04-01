@@ -1,13 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Comic+Neue|Gotu&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Slabo+27px|Titillium+Web&display=swap');
 body #fonts {
 font-family: 'Montserrat', sans-serif;
 }
 
 body #white {
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   background-color: rgba(255,255,255,0.5);
   color:black;
 }
@@ -17,12 +17,13 @@ body #temp {
 }
 
 body #font {
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   color: black;
 }
 /*
     font-family: 'Slabo 27px', serif;
     font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 */
 
 
