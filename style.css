@@ -16,6 +16,15 @@ body #temp {
   font-family: 'Comic Neue', cursive;
 }
 
+body #menu {
+  z-index: 9999;
+  position:fixed;  
+  margin-left: 15% !important;
+  width: 70% !important;
+  margin-right: 15% !important;
+  
+}
+
 body #font {
   font-family: 'Titillium Web', sans-serif;
   color: black;
