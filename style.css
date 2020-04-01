@@ -1,5 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comic+Neue|Gotu&display=swap');
+body #fonts {
+font-family: 'Montserrat', sans-serif;
+}
+
+
+body #temp {
+  font-family: 'Comic Neue', cursive;
+}
+
+body #font {
+  font-family: 'Gotu', sans-serif;
+  color: black;
+}
+
+
 body {
-  background-color: white;
+  background-color: #7dcea0;
 }
 
 .ui.borderless.topmenu.menu {
