@@ -43,6 +43,7 @@ body {
 body {
   background: url('images/background/dark.jpg');
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .ui.borderless.topmenu.menu {
