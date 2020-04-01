@@ -1,26 +1,37 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Comic+Neue|Gotu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Slabo+27px&display=swap');
 body #fonts {
 font-family: 'Montserrat', sans-serif;
 }
 
+body #white {
+  font-family: 'Do Hyeon', sans-serif;
+  background-color: rgba(255,255,255,0.5);
+  color:black;
+}
 
 body #temp {
   font-family: 'Comic Neue', cursive;
 }
 
 body #font {
-  font-family: 'Gotu', sans-serif;
+  font-family: 'Do Hyeon', sans-serif;
   color: black;
 }
+/*
+    font-family: 'Slabo 27px', serif;
+    font-family: 'Do Hyeon', sans-serif;
+*/
+
 
 /*
 body {
   background-color: #7dcea0;
 }*/
 body {
-  background: url('images/greenback.jpeg');
+  background: url('images/background/dark.jpg');
   background-size: cover;
 }
 
