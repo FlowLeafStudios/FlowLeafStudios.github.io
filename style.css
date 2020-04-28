@@ -11,6 +11,9 @@ font-family: 'Roboto', sans-serif;
 body #white {
   font-family: 'Roboto', sans-serif;
   background-color: rgba(255,255,255,0.5);
+  border-radius: 5px;
+  box-shadow: 0 0 15px 10px #141414;
+  padding: 10px;
   
   color:black;
 }
